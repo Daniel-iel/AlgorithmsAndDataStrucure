@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringReversal", "StringReversal", "{CA3CA7C2-B01A-414A-A657-2043DE0B4FA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReversalCode", "StringReversalCode\StringReversalCode.csproj", "{CC5218F8-E440-4D46-B0C9-F4C51FCD6B24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringReversalCode", "StringReversalCode\StringReversalCode.csproj", "{CC5218F8-E440-4D46-B0C9-F4C51FCD6B24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Palindrome", "Palindrome", "{22CEB821-91FD-4776-BAC2-FEF290F2957A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeCode", "PalindromeCode\PalindromeCode.csproj", "{3B472878-0A73-403D-A2EE-D88DD741AAC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{CC5218F8-E440-4D46-B0C9-F4C51FCD6B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC5218F8-E440-4D46-B0C9-F4C51FCD6B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC5218F8-E440-4D46-B0C9-F4C51FCD6B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B472878-0A73-403D-A2EE-D88DD741AAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B472878-0A73-403D-A2EE-D88DD741AAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B472878-0A73-403D-A2EE-D88DD741AAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B472878-0A73-403D-A2EE-D88DD741AAC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CC5218F8-E440-4D46-B0C9-F4C51FCD6B24} = {CA3CA7C2-B01A-414A-A657-2043DE0B4FA9}
+		{3B472878-0A73-403D-A2EE-D88DD741AAC3} = {22CEB821-91FD-4776-BAC2-FEF290F2957A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC7E444B-7946-4077-A8D1-A1050A0E6495}
