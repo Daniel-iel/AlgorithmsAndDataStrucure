@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace PalindromeCode
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -17,7 +17,7 @@ namespace PalindromeCode
             Console.WriteLine(isPalindrome3);
         }
 
-        static bool Palindrome1(string str)
+        public static bool Palindrome1(string str)
         {
             bool isPalindrome = true;
             int strLength = str.Length - 1;
@@ -33,14 +33,14 @@ namespace PalindromeCode
             return isPalindrome;
         }
 
-        static bool Palindrome2(string str)
+        public static bool Palindrome2(string str)
         {
             var reversed = str.Reverse().ToArray();
 
             return str == new string(reversed);
         }
 
-        static bool Palindrome3(string str)
+        public static bool Palindrome3(string str)
         {
             int index = 0;
             var listOfCaracters = str.ToList();

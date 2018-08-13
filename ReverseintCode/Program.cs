@@ -7,10 +7,10 @@ namespace ReverseintCode
     {
         static void Main(string[] args)
         {
-
+            Reverseint(36235);
         }
 
-        public int Reverseint(int n)
+        public static int Reverseint(int n)
         {
             var reversed = n.ToString().Replace("-","") .Reverse().ToArray();
             var stringReversed = new string(reversed);

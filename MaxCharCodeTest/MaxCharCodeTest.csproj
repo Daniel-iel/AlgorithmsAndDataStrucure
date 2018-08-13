@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PalindromeCode\PalindromeCode.csproj" />
+    <ProjectReference Include="..\MaxCharCode\MaxCharCode.csproj" />
   </ItemGroup>
 
 </Project>

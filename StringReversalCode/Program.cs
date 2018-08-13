@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace StringReversalCode
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -18,14 +18,14 @@ namespace StringReversalCode
             Console.WriteLine(reversed3);
         }
 
-        static string reverse1(string str)
+        public static string reverse1(string str)
         {
             var arr = str.Reverse().ToArray();
 
             return new string(arr);
         }
 
-        static string reverse2(string str)
+        public static string reverse2(string str)
         {
             string reversed = "";
             foreach (var value in str)
@@ -34,7 +34,7 @@ namespace StringReversalCode
             return reversed;
         }
 
-        static string reverse3(string str)
+        public static string reverse3(string str)
         {
             //string reversed = "";
 
