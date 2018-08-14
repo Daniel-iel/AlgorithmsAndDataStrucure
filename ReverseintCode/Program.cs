@@ -17,5 +17,19 @@ namespace ReverseintCode
 
             return int.Parse(stringReversed) * Math.Sign(n);
         }
+
+        public static int Reverseint1(int n)
+        {
+            int remaing = 0;
+
+            while (Math.Abs(n) > 0)
+            {
+                remaing = remaing * 10 + (n % 10);
+
+                n = n / 10;
+            }
+
+            return remaing;
+        }
     }
 }
