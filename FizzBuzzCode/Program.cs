@@ -11,18 +11,18 @@ namespace FizzBuzzCode
 
         public static string[] FizzBuzz(int n)
         {
-            var result = new string[n];
+            var result = new string[n+1];
 
-            for (int i = 1; i <= n; i++)
+            for (int i = 0; i <= n; i++)
             {
-                if (i % 3 == 0 && i % 3 == 5)
+                if (i % 3 == 0 && i % 5 == 0)
                     result[i] = "fizzbuzz";
                 else if (i % 3 == 0)
                     result[i] = "fizz";
                 else if (i % 5 == 0)
                     result[i] = "buzz";
                 else
-                    result[i] = n.ToString();
+                    result[i] = i.ToString();
             }
 
             return result;
