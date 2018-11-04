@@ -12,7 +12,7 @@ namespace ChunkTest
         [TestMethod]
         public void Chunk1()
         {
-            var list = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
+            List<int> list = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
             var result = Program.Chunk1(list, 3);
 
             var expected = new List<List<int>>();
@@ -39,7 +39,7 @@ namespace ChunkTest
         [TestMethod]
         public void Chunk2()
         {
-            var list = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
+            List<int> list = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
             var result = Program.Chunk2(list.ToArray(), 3);
 
             var expected = new List<List<int>>();
